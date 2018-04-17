@@ -14,12 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - fourLib (0.1.2):
+  - fourLib (0.1.3):
     - AFNetworking
-    - SDWebImage
-  - SDWebImage (4.2.2):
-    - SDWebImage/Core (= 4.2.2)
-  - SDWebImage/Core (4.2.2)
 
 DEPENDENCIES:
   - fourLib (from `../`)
@@ -30,8 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  fourLib: 48714972db7a6f6760c9ecb5237903bb559a873f
-  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  fourLib: b834c537b2966a90a68cfe089f21ec5e944e4b6b
 
 PODFILE CHECKSUM: 24c9ec3bef7cc2a90941504ec304135060959fe3
 
