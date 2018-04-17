@@ -5,13 +5,14 @@
 //  Created by 274947394@qq.com on 04/17/2018.
 //  Copyright (c) 2018 274947394@qq.com. All rights reserved.
 //
-
+#import "MyGLView.h"
 #import "lxlAppDelegate.h"
 
 @implementation lxlAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	[MyGLView layerClass];
     // Override point for customization after application launch.
     return YES;
 }

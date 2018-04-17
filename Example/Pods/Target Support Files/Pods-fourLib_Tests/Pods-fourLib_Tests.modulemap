@@ -1,0 +1,6 @@
+framework module Pods_fourLib_Tests {
+  umbrella header "Pods-fourLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

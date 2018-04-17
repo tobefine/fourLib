@@ -1,0 +1,16 @@
+PODS:
+  - fourLib (0.1.0)
+
+DEPENDENCIES:
+  - fourLib (from `../`)
+
+EXTERNAL SOURCES:
+  fourLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  fourLib: 1f1fc54caeec574a91a6dd21476f70cb4382d013
+
+PODFILE CHECKSUM: 24c9ec3bef7cc2a90941504ec304135060959fe3
+
+COCOAPODS: 1.2.1
