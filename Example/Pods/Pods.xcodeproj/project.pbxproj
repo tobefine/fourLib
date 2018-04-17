@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		105AC619F9F8A142AE44524F6FBDD77B /* fourLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4327CEA8E6F8F4635A97BE520D3B63A2 /* fourLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		137C18523BDD0D9C707F32A7892B264D /* Pods-fourLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA8BD1924AF42C117AD7CE5F3A339CD /* Pods-fourLib_Tests-dummy.m */; };
-		34FF2A27331CA69FC57514E550A995AD /* fourLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73C539918298F38A7F859F03FF90188 /* fourLib-dummy.m */; };
+		1C8CA67A8A6023B26D95629B2DE516C3 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CB3C4309242A9BD6633DF5F8387EF /* MyGLView.m */; };
 		42E8E29B8A1FEE90C7AFFEEB6BFCE18D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4ED40BF10E75966F053CE6055CE0DD71 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58859042E1655043A42C82A1557B8B38 /* MyGLView.m */; };
 		58CA757E3AC96A1EF04CDF90DC3E07AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		655EF8CFBE4F35C4114B68987EBC65D0 /* person.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A127FC52A4529908E8A2C3ABC064924 /* person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7319555527BC636DECF1E4AB0848328C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9B0F5AF5C9A2E1C2E28E903835982C1D /* Pods-fourLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1BA6F725E99C47AC7A3540C9435239 /* Pods-fourLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BD69BB4688057A8E50D640E47A205A1 /* MyGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4C0A6DBFE7AFC1881BA9D59CCDB43B /* MyGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D16EEB3C5DBE2ABD37A7C23109C01EA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C52747626309E3927B9AE622A1456B09 /* fourLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73C539918298F38A7F859F03FF90188 /* fourLib-dummy.m */; };
+		C53E36344DDCBDF4AD19B402D7EE3B97 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6142B911051217B5B10F063DEEAF14 /* person.m */; };
+		F2B4BF95FB0D12A2F6EA2ABB38CE01AE /* MyGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDBE3DFAD49B22F2B3A3CA730B3CEC7 /* MyGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2436D0BF5266C73129E2277D22D2D8 /* fourLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4327CEA8E6F8F4635A97BE520D3B63A2 /* fourLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF4A191E2DC44D1CD0C9290B89EE6012 /* Pods-fourLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F16555F8766166ECAF2AD2AE86177D9A /* Pods-fourLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF7FC0805CC9A30741F4011AE2974594 /* Pods-fourLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C96BB7F9670AB1BBA28C3F6B2FA2CD2 /* Pods-fourLib_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -25,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29A2666DCAA38220852EA092A5482120;
+			remoteGlobalIDString = AB6480AFC9EFFBBCA002BCADE225906B;
 			remoteInfo = fourLib;
 		};
 /* End PBXContainerItemProxy section */
@@ -38,10 +40,10 @@
 		2C96BB7F9670AB1BBA28C3F6B2FA2CD2 /* Pods-fourLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fourLib_Example-dummy.m"; sourceTree = "<group>"; };
 		342D48829D56EEB536F0AB5A712C1D12 /* fourLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fourLib.framework; path = fourLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4327CEA8E6F8F4635A97BE520D3B63A2 /* fourLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fourLib-umbrella.h"; sourceTree = "<group>"; };
+		494CB3C4309242A9BD6633DF5F8387EF /* MyGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
+		4A127FC52A4529908E8A2C3ABC064924 /* person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		4FB22F99D03D4E25EF9448E51F3BE3C7 /* Pods_fourLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fourLib_Tests.framework; path = "Pods-fourLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58859042E1655043A42C82A1557B8B38 /* MyGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
 		5DA8BD1924AF42C117AD7CE5F3A339CD /* Pods-fourLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fourLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		5F4C0A6DBFE7AFC1881BA9D59CCDB43B /* MyGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7381DB999DDF143D1FF4848FA91965A9 /* Pods-fourLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fourLib_Example-resources.sh"; sourceTree = "<group>"; };
 		750C5BE9EB2E264A16ECEF4972E915FF /* Pods-fourLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fourLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,15 +60,25 @@
 		BB2058AE72E45E23DA4CEB57DB86F08B /* fourLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fourLib.xcconfig; sourceTree = "<group>"; };
 		C03B58B7B9D9FFCA9AC02BB9FC3EAAA0 /* Pods-fourLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fourLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		C73C539918298F38A7F859F03FF90188 /* fourLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fourLib-dummy.m"; sourceTree = "<group>"; };
+		CE6142B911051217B5B10F063DEEAF14 /* person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 		D0AC62F5A9CE10C105F840F1F2887C3D /* Pods-fourLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fourLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2EC3D3ACB43FE73DDCE6899D7A9C310 /* Pods-fourLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-fourLib_Example.modulemap"; sourceTree = "<group>"; };
 		D829392C1364B6AF5AF803496FD567EE /* Pods-fourLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fourLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDBE3DFAD49B22F2B3A3CA730B3CEC7 /* MyGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
 		EA7EB8E0DD65197744FF9EB991B17321 /* Pods-fourLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fourLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED194D80FABB04A87EC3D38C16AE5F25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16555F8766166ECAF2AD2AE86177D9A /* Pods-fourLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fourLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		273D6E9A2C0439BAD86A5511288169DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7319555527BC636DECF1E4AB0848328C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75637EE78646785F9F96229D67DB11FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,14 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CA757E3AC96A1EF04CDF90DC3E07AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8A7979D00FFE31C26595678E399C7B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D16EEB3C5DBE2ABD37A7C23109C01EA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,29 +116,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B5BAC45979A7D5B21526BD858E4526E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5F4C0A6DBFE7AFC1881BA9D59CCDB43B /* MyGLView.h */,
-				58859042E1655043A42C82A1557B8B38 /* MyGLView.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3BCBCD184551F125507BBF8D8096B9B7 /* fourLib */ = {
-			isa = PBXGroup;
-			children = (
-				3B5BAC45979A7D5B21526BD858E4526E /* Classes */,
-			);
-			name = fourLib;
-			path = fourLib;
-			sourceTree = "<group>";
-		};
 		5236F3E4AD53CA4288FE96827812018C /* fourLib */ = {
 			isa = PBXGroup;
 			children = (
-				3BCBCD184551F125507BBF8D8096B9B7 /* fourLib */,
+				EE5B0E8249BD1CB74B6F69FDC11DD207 /* fourLib */,
 				BC07DEED125EDB73345929BDDD1EF78B /* Support Files */,
 			);
 			name = fourLib;
@@ -201,6 +186,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C05CD22A1F1A2AF04B2A84E99C0F5B22 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBE3DFAD49B22F2B3A3CA730B3CEC7 /* MyGLView.h */,
+				494CB3C4309242A9BD6633DF5F8387EF /* MyGLView.m */,
+				4A127FC52A4529908E8A2C3ABC064924 /* person.h */,
+				CE6142B911051217B5B10F063DEEAF14 /* person.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,23 +224,33 @@
 			path = "Target Support Files/Pods-fourLib_Tests";
 			sourceTree = "<group>";
 		};
+		EE5B0E8249BD1CB74B6F69FDC11DD207 /* fourLib */ = {
+			isa = PBXGroup;
+			children = (
+				C05CD22A1F1A2AF04B2A84E99C0F5B22 /* Classes */,
+			);
+			name = fourLib;
+			path = fourLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1AF8E1C8FBCFFBD648A8A8457D308C52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2436D0BF5266C73129E2277D22D2D8 /* fourLib-umbrella.h in Headers */,
+				F2B4BF95FB0D12A2F6EA2ABB38CE01AE /* MyGLView.h in Headers */,
+				655EF8CFBE4F35C4114B68987EBC65D0 /* person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3E0B6EE3B18FEC7FB0D13B1B33E401D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF4A191E2DC44D1CD0C9290B89EE6012 /* Pods-fourLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B635F8ABBD1940A9F1D268ED7BC945A8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				105AC619F9F8A142AE44524F6FBDD77B /* fourLib-umbrella.h in Headers */,
-				9BD69BB4688057A8E50D640E47A205A1 /* MyGLView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,23 +265,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		29A2666DCAA38220852EA092A5482120 /* fourLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4568D3DA36D4D737E1740481CB22D81B /* Build configuration list for PBXNativeTarget "fourLib" */;
-			buildPhases = (
-				F9A03E073EB16E619CA8BAD824AA3E5C /* Sources */,
-				F8A7979D00FFE31C26595678E399C7B9 /* Frameworks */,
-				B635F8ABBD1940A9F1D268ED7BC945A8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = fourLib;
-			productName = fourLib;
-			productReference = 342D48829D56EEB536F0AB5A712C1D12 /* fourLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4D6452F4A44F86E90ADA584B614EA8EF /* Pods-fourLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C61EF06EC55017DF83E5E4A632CFCB4A /* Build configuration list for PBXNativeTarget "Pods-fourLib_Tests" */;
@@ -310,6 +300,23 @@
 			productReference = 7EE532D4A152EBA0C49B9D01D9339AAC /* Pods_fourLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		AB6480AFC9EFFBBCA002BCADE225906B /* fourLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D629888DEF5B4666FC9ADBAAD79845 /* Build configuration list for PBXNativeTarget "fourLib" */;
+			buildPhases = (
+				9AD1836A717504F1FE2167D105D59FCD /* Sources */,
+				273D6E9A2C0439BAD86A5511288169DB /* Frameworks */,
+				1AF8E1C8FBCFFBD648A8A8457D308C52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fourLib;
+			productName = fourLib;
+			productReference = 342D48829D56EEB536F0AB5A712C1D12 /* fourLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -331,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29A2666DCAA38220852EA092A5482120 /* fourLib */,
+				AB6480AFC9EFFBBCA002BCADE225906B /* fourLib */,
 				A399894CE9CA36D318B2B2B21A3CD920 /* Pods-fourLib_Example */,
 				4D6452F4A44F86E90ADA584B614EA8EF /* Pods-fourLib_Tests */,
 			);
@@ -355,12 +362,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9A03E073EB16E619CA8BAD824AA3E5C /* Sources */ = {
+		9AD1836A717504F1FE2167D105D59FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FF2A27331CA69FC57514E550A995AD /* fourLib-dummy.m in Sources */,
-				4ED40BF10E75966F053CE6055CE0DD71 /* MyGLView.m in Sources */,
+				C52747626309E3927B9AE622A1456B09 /* fourLib-dummy.m in Sources */,
+				1C8CA67A8A6023B26D95629B2DE516C3 /* MyGLView.m in Sources */,
+				C53E36344DDCBDF4AD19B402D7EE3B97 /* person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +378,7 @@
 		A5F51F2B3EFD17669F64B4B50DE6C43B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = fourLib;
-			target = 29A2666DCAA38220852EA092A5482120 /* fourLib */;
+			target = AB6480AFC9EFFBBCA002BCADE225906B /* fourLib */;
 			targetProxy = 4F3315BBD6D3435E76588C16379688B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,38 +425,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		223A4A87443E7DA67B15C7F2DE3FE75A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2058AE72E45E23DA4CEB57DB86F08B /* fourLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/fourLib/fourLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fourLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fourLib/fourLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = fourLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -560,6 +536,38 @@
 			};
 			name = Debug;
 		};
+		8DFBAFC06C68BB5BBD6555E35BD7D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2058AE72E45E23DA4CEB57DB86F08B /* fourLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/fourLib/fourLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fourLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fourLib/fourLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = fourLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AEA580F428CC4F97C1999774F99B5D0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA7EB8E0DD65197744FF9EB991B17321 /* Pods-fourLib_Example.release.xcconfig */;
@@ -595,38 +603,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B7D8F681451F829B89731CD3606A3B79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB2058AE72E45E23DA4CEB57DB86F08B /* fourLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/fourLib/fourLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fourLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fourLib/fourLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = fourLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -676,6 +652,38 @@
 			};
 			name = Debug;
 		};
+		D8BF3DDBCED2BEEA9369EE40E0F2F401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2058AE72E45E23DA4CEB57DB86F08B /* fourLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/fourLib/fourLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fourLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fourLib/fourLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = fourLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,11 +705,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4568D3DA36D4D737E1740481CB22D81B /* Build configuration list for PBXNativeTarget "fourLib" */ = {
+		54D629888DEF5B4666FC9ADBAAD79845 /* Build configuration list for PBXNativeTarget "fourLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7D8F681451F829B89731CD3606A3B79 /* Debug */,
-				223A4A87443E7DA67B15C7F2DE3FE75A /* Release */,
+				D8BF3DDBCED2BEEA9369EE40E0F2F401 /* Debug */,
+				8DFBAFC06C68BB5BBD6555E35BD7D13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

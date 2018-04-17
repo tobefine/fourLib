@@ -11,6 +11,7 @@
 #endif
 
 #import "MyGLView.h"
+#import "person.h"
 
 FOUNDATION_EXPORT double fourLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char fourLibVersionString[];

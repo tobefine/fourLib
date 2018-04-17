@@ -1,9 +1,9 @@
 {
   "name": "fourLib",
   "version": "0.1.0",
-  "summary": "A short description of fourLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/274947394@qq.com/fourLib",
+  "summary": "fourLib.",
+  "description": "A short description ofA short description of",
+  "homepage": "https://github.com/tobefine/fourLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "274947394@qq.com": "123@qq.com"
   },
   "source": {
-    "git": "https://github.com/274947394@qq.com/fourLib.git",
+    "git": "https://github.com/tobefine/fourLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
