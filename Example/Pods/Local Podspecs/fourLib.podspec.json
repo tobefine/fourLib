@@ -1,6 +1,6 @@
 {
   "name": "fourLib",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "fourLib.",
   "description": "A short description ofA short description of",
   "homepage": "https://github.com/tobefine/fourLib",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/tobefine/fourLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "fourLib/Classes/**/*"
+  "source_files": "fourLib/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }

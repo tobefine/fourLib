@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "lxl.h"
 #import "MyGLView.h"
 #import "person.h"
 
