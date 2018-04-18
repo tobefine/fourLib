@@ -7,7 +7,6 @@
 //
 #import "MyGLView.h"
 #import "lxlAppDelegate.h"
-
 @implementation lxlAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
