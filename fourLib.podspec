@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'fourLib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = ' fourLib.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,28 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'fourLib/Classes/**/*'
+  #s.source_files = 'fourLib/Classes/**/*'
   
+     s.subspec 'com01' do |c1|
+   c1.source_files = 'fourLib/Classes/com01/**/*'
+      c1.dependency 'AFNetworking'
+   #依赖库放到需要依赖的子库中 这样其他的子库不会导入
+   end
+   
+        s.subspec 'com02' do |c2|
+   c2.source_files = 'fourLib/Classes/com02/**/*'
+ 
+   #依赖库放到需要依赖的子库中 这样其他的子库不会导入
+   end
+   
+        s.subspec 'com03' do |c3|
+   c3.source_files = 'fourLib/Classes/com03/**/*'
+      s.dependency 'AFNetworking'
+   #依赖库放到需要依赖的子库中 这样其他的子库不会导入
+   end
+   
+   
+   
   # s.resource_bundles = {
   #   'fourLib' => ['fourLib/Assets/*.png']
   # }
@@ -37,4 +57,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking'
+   #依赖库放到需要依赖的子库中
+   
+   
+
 end

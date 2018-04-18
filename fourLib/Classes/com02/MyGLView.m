@@ -7,6 +7,7 @@
 //
 
 #import "MyGLView.h"
+#import "AFNetworking.h"
 @interface MyGLView ()
 {
     CAEAGLLayer *_eaglLayer;  //OpenGL内容只会在此类layer上描绘
